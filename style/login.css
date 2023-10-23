@@ -1,0 +1,49 @@
+form{
+    margin: 30px;
+    background-color: rgb(230, 229, 229);
+    width: 50%;
+    height: 290px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+form input{
+    width: 80%;
+    height: 40px;
+    border: none;
+    padding: 10px;
+}
+h2{
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+input[type=submit]{
+    cursor: pointer;
+    border: none;
+    background-color: rgb(216, 218, 219);
+}
+input[type=submit]:hover{
+    background-color: rgb(146, 145, 144);
+    color: white;
+}
+@media only screen and (max-width: 500px){
+    form{
+        margin: 30px;
+        background-color: rgb(230, 229, 229);
+        width: 80%;
+        height: 290px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 20px;
+    }
+    form input{
+        width: 90%;
+        height: 40px;
+        border: none;
+        padding: 10px;
+    }
+}

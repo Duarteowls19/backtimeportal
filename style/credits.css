@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Germania+One&family=MedievalSharp&display=swap');
+
+.person{
+    width: 70%;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.person img{
+    width: 200px;
+    border-radius: 20px;
+    margin-right: 030px;
+}
+.person p{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 80%;
+}
+.person h2{
+    font-family: 'Germania One';
+}
+#right_g{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.a_log a{
+    text-decoration: none;
+}
+.a_log p{
+    transition: 400ms;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+    background-color: rgb(229, 230, 231);
+}
+.a_log p:hover{
+    transition: 400ms;
+    color: rgb(255, 255, 255);
+    background-color: rgb(92, 92, 92);
+}
+@media only screen and (max-width: 900px) {
+    .links{
+        margin-top: 0px;
+    }
+    .person{
+        width: 70%;
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    #right_g {
+        width: 70%;
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .person p{
+        text-align: center;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        width: 80%;
+    }
+    div{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .person img{
+        width: 200px;
+        border-radius: 20px;
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+}
+@media only screen and (max-width: 450px){
+    .person{
+       width: 90%;
+    }
+    .person img{
+        width: 150px;
+        border-radius: 20px;
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+    .person p{
+        width: 90%;
+        font-size: 13px;
+    }
+}

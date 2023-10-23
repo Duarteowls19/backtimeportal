@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Germania+One&family=MedievalSharp&display=swap');
+
+ .log_out{
+    transition: 400ms;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    color: black;
+    font-size: 23px;
+    background-color: rgb(212, 209, 206);
+    margin-bottom: 30px;
+}
+.log_out:hover{
+    transition: 400ms;
+color: white;
+background-color: rgb(87, 83, 83);
+font-family: 'MedievalSharp', cursive;
+
+}
+a{
+    transition: 400ms;
+    text-decoration: none;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+form input{
+    margin-top: 30px;
+    width: 500px;
+    height: 50px;
+    padding: 10px;
+    font-size: 17px;
+}
+form textarea{
+    margin: 0px;
+    margin-top: 30px;
+    width: 500px;
+    height: 50px;
+    padding: 10px;
+    font-size: 17px;
+}
+input[type=submit]{
+    transition: 400ms;
+    cursor: pointer;
+}
+input[type=submit]:hover{
+    transition: 400ms;
+    background-color: black;
+    color: white;
+}
+.acoes{
+    display: flex;
+    flex-direction: row;
+    margin-top: -40px;
+    margin-bottom: 20px;
+    width: 200px;
+    background-color: rgb(202, 198, 198);
+    padding: 12px;
+ }
+.acoes p {
+    transition: 400ms;
+   margin-left: 25px;
+   color: black;
+   font-size: 20px;
+}
+.acoes p:hover{
+    transition: 400ms;
+    color: rgb(72, 91, 199);
+    font-family: 'MedievalSharp';
+    
+}
+
+section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.exclute{
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+background-color: #c5c3c3;
+}
+.exclute h2{
+    margin: 20px;
+    font-family: 'Anton';
+}
+.exclute button{
+    transition: 400ms;
+    width: 100px;
+    height: 25px;
+    background-color: white;
+    border: none;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.exclute button:hover{
+    transition: 400ms;
+    background-color: #949393;
+    color: white;
+}
+.exclute a{
+    transition: 400ms;
+    width: 100px;
+    height: 25px;
+    background-color: white;
+    border: none;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: black;
+    padding-top: 2px;
+}
+.exclute a:hover{
+    transition: 400ms;
+    background-color: #949393;
+    color: white;
+}
+
+@media only screen and (max-width: 550px){
+    form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        width: 100%;
+    }
+    form input{
+        margin-top: 30px;
+        width: 90%;
+        height: 50px;
+        padding: 10px;
+        font-size: 15px;
+    }
+    form textarea{
+        margin: 0px;
+        margin-top: 30px;
+        width: 90%;
+        height: 50px;
+        padding: 10px;
+        font-size: 14px;
+    }
+    .log_out{
+        transition: 400ms;
+        text-decoration: none;
+        text-align: center;
+        padding: 10px;
+        color: black;
+        font-size: 19px;
+        background-color: rgb(212, 209, 206);
+        margin-bottom: 30px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    section{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+  .picture {
+    width: 90% !important;
+    aspect-ratio: 16/9;
+    background: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #aaa;
+    border: 2px dashed currentcolor;
+    cursor: pointer;
+    font-family: sans-serif;
+    transition: color 300ms ease-in-out, background 300ms ease-in-out;
+    outline: none;
+    overflow: hidden;
+  }
+  
+  .picture:hover {
+    color: #777;
+    background: #ccc;
+  }
+  
+  .picture:active {
+    border-color: turquoise;
+    color: turquoise;
+    background: #eee;
+  }
+  
+  .picture:focus {
+    color: #777;
+    background: #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .picture__img {
+    max-width: 90%;
+  }
+  
+}
